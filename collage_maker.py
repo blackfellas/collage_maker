@@ -58,9 +58,9 @@ for idx,person in enumerate(people):
 #these dimensions are optimized for 135 images. adjust accordingly if you have more or less.
 count = 0
 size = 100,100
-new_im = Image.new('RGB', (2700,500))
-for i in xrange(0,2700,100):
-	for j in xrange(0,500,100):
+new_im = Image.new('RGB', (2754,510)) # 2px of padding for neatness
+for i in xrange(0,2700,102):
+	for j in xrange(0,500,102):
 		print 'pasting image %s of %s' % (count,len(images))
 		im = Image.open(image['person']+'.jpg')
 		
