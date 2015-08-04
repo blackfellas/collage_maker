@@ -1,9 +1,9 @@
 # collage_maker
 simple python collage maker
 
-example : http://i.imgur.com/jfL7ENT.jpg
+example : http://i.imgur.com/qyvC8tn.jpg
 
-1. Register an API key a bing.com/developers
+1. Register an API key at bing.com/developers
 
 2. Modify the people[] list to things you want images for (doesn't have to be people, you can change the name
 
