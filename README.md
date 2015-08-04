@@ -1,7 +1,7 @@
 # collage_maker
 simple python collage maker
 
-
+example : http://i.imgur.com/jfL7ENT.jpg
 
 1. Register an API key a bing.com/developers
 
