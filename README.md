@@ -3,13 +3,15 @@ simple python collage maker
 
 example : http://i.imgur.com/qyvC8tn.jpg
 
+0. Clone this repo or copy the code from collage_maker.py into your own .py file 
+
 1. Register an API key at bing.com/developers
 
 2. Modify the people[] list to things you want images for (doesn't have to be people, you can change the name)
 
 3. Dimensions for the collage and images are currently optimized for 135 images. Adjust accordingly for how many images you have
 
-4. python collage_maker.py
+4. python collage_maker.py (in your console)
 
 5. yay, a collage
 
