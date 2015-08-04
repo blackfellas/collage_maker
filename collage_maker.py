@@ -64,7 +64,7 @@ for i in xrange(0,2700,100):
 		print 'pasting image %s of %s' % (count,len(images))
 		im = Image.open(image['person']+'.jpg')
 		
-		im.thumbnail(size)
+		im.resize(size)
 		new_im.paste(im, (i,j))
 
 		count += 1
