@@ -57,7 +57,7 @@ for idx,person in enumerate(people):
 
 #these dimensions are optimized for 135 images. adjust accordingly if you have more or less.
 count = 0
-size = 128,128
+size = 100,100
 new_im = Image.new('RGB', (2700,500))
 for i in xrange(0,2700,100):
 	for j in xrange(0,500,100):
