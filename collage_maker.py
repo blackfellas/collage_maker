@@ -9,8 +9,8 @@ import glob
 #go register one at bing.com/developers
 key = "ZqtAKVnXJJGyM7VxyTJrGvfTIRljKZTC5dGf49NrkSs"
 
-#inspired by BingSearchAPI
-class BingSearch():
+
+class BingSearch(): #inspired by BingSearchAPI by xthepoet
 	bing_api = "https://api.datamarket.azure.com/Data.ashx/Bing/Search/v1/Composite?"
 
 	def __init__(self,key):
