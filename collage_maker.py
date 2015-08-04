@@ -58,7 +58,7 @@ for idx,person in enumerate(people):
 #these dimensions are optimized for 135 images. adjust accordingly if you have more or less.
 image_files = []
 for file in glob.glob("*.jpg"):
-    images.append(file)
+    image_files.append(file)
 count = 0
 size = 100,100
 new_im = Image.new('RGB', (2754,510))
