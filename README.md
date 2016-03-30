@@ -9,7 +9,7 @@ example : http://i.imgur.com/qyvC8tn.jpg
 
 2. Modify the people[] list to things you want images for (doesn't have to be people, you can change the name)
 
-3. Dimensions for the collage and images are currently optimized for 135 images. Adjust accordingly for how many images you have
+3. Dimensions for the collage and images are currently optimized for 135 images. Adjust accordingly for how many images you want (# of items in your list)
 
 4. python collage_maker.py (in your console)
 
